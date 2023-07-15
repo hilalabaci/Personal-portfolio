@@ -7,12 +7,12 @@ export const Container = styled.div`
   background-image: url("/logo/absurd.design2.png");
   background-repeat: no-repeat;
   background-size: 40%;
-  background-position: left 0% top 15%;
+  background-position: left 0% top 14%;
   height: 100vw;
   color: #edebeb;
   font-family: "WorkSansBold";
   letter-spacing: 3px;
-  padding-top: 50px;
+  padding-top: 150px;
 `;
 export const ContactWrapper = styled.div`
   display: flex;
@@ -63,8 +63,8 @@ export const AboutTitle = styled.div`
   width: 50%;
 `;
 export const Details = styled.p`
-  text-transform: uppercase;
-  font-size: 15px;
+
+  font-size: 19px;
   line-height: 2em;
   text-align: justify;
   letter-spacing: 2px;

@@ -17,7 +17,7 @@ export const ItemsWrapper = styled.div`
   justify-content: center;
   gap: 10px;
 `;
-export const NavbarItem = styled.a<NavbarItemProps>`
+export const NavbarItem = styled.button<NavbarItemProps>`
   width: 30px;
   height: 30px;
   background-color: ${(props) =>
@@ -25,6 +25,7 @@ export const NavbarItem = styled.a<NavbarItemProps>`
       ? " rgba(46, 16, 66, 0.80);"
       : " rgba(46, 16, 66, 0.10);"};
   border-radius: 100px;
+  border: none;
 `;
 export const TransitionNavbarItem = styled.div`
   display: flex;

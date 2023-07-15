@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Container,
   TransitionNavbarItem,
@@ -7,47 +7,51 @@ import {
   NavbarItemInfo,
 } from "./styles";
 import { NavbarProps } from "./types";
+import { useNavContext } from "../../contexts/NavContext";
 
 function Navbar(props: NavbarProps) {
-  const [navbarItemInfo, setNavbarItemInfo] = useState("Start");
+  const { activeLinkId } = useNavContext();
+
+  const handleClick = (sectionId: string) => {
+    document
+      .getElementById(sectionId.toLocaleLowerCase())
+      ?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <Container>
       <TransitionNavbarItem>
         <ItemsWrapper>
           <NavbarItem
-            href="#start"
-            $selectedRoundColour={navbarItemInfo === "Start"}
+            $selectedRoundColour={activeLinkId === "Start"}
             onClick={() => {
-              setNavbarItemInfo("Start");
+              handleClick("Start");
             }}
           />
-          {navbarItemInfo === "Start" && (
-            <NavbarItemInfo>{navbarItemInfo}</NavbarItemInfo>
+          {activeLinkId === "Start" && (
+            <NavbarItemInfo>{activeLinkId}</NavbarItemInfo>
           )}
         </ItemsWrapper>
         <ItemsWrapper>
           <NavbarItem
-            $selectedRoundColour={navbarItemInfo === "Work"}
-            href="#work"
+            $selectedRoundColour={activeLinkId === "Work"}
             onClick={() => {
-              setNavbarItemInfo("Work");
+              handleClick("Work");
             }}
           />
-          {navbarItemInfo === "Work" && (
-            <NavbarItemInfo>{navbarItemInfo}</NavbarItemInfo>
+          {activeLinkId === "Work" && (
+            <NavbarItemInfo>{activeLinkId}</NavbarItemInfo>
           )}
         </ItemsWrapper>
         <ItemsWrapper>
           <NavbarItem
-            $selectedRoundColour={navbarItemInfo === "About"}
-            href="#about"
+            $selectedRoundColour={activeLinkId === "About"}
             onClick={() => {
-              setNavbarItemInfo("About");
+              handleClick("About");
             }}
           />
-          {navbarItemInfo === "About" && (
-            <NavbarItemInfo>{navbarItemInfo}</NavbarItemInfo>
+          {activeLinkId === "About" && (
+            <NavbarItemInfo>{activeLinkId}</NavbarItemInfo>
           )}
         </ItemsWrapper>
       </TransitionNavbarItem>

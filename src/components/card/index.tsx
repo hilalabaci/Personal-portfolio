@@ -9,7 +9,7 @@ function Card(props: CardItemProps) {
       <Techno>{props.techno}</Techno>
       <Details>{props.details}</Details>
       <Link href={props.link} target="_blank">
-        get in touch
+        check this out
       </Link>
     </Container>
   );

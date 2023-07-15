@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Content, IllustImg, Title, Info } from "./styles";
+import useNav from "../../hooks/useNav";
 
 function Start() {
+  const startRef = useNav<HTMLDivElement>("Start");
   return (
-    <Container id='start'>
+    <Container ref={startRef} id="start">
       <Info>
         <Title>I'm Hilal</Title>
         <Content>Full Stack Web Developer</Content>

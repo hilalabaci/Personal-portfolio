@@ -12,36 +12,37 @@ import {
   LinkedIn,
   GitHub,
   Link,
-  IllustImg,
 } from "./styles";
+import useNav from "../../hooks/useNav";
 
 function About() {
+  const aboutRef = useNav<HTMLDivElement>("About");
   return (
-    <Container id='about'>
+    <Container ref={aboutRef} id="about">
       <Aboutme>
-        <AboutTitle>Hilal Abaci - full stack web developer</AboutTitle>
+        <AboutTitle>
+          Hilal Abacı - Full Stack Web Developer in London, UK
+        </AboutTitle>
+        <br />
         <Details>
-          I'm Hilal Abaci a freelance multidisciplinary developer based in
-          London, Germany. I create and concept ideas, pitch treatments, Look
-          development and design projects through to animation, VFX and live
-          action. From 2009 to February 2013 I studied Graphic Design at the
-          University of Applied Sciences in Dortmund with the achievement of the
-          Bachelor of Arts. During that time I started freelancing as a
-          Graphic-/Motion Designer. From 2014 to June 2017 I worked at
-          weareflink in the field of motion design and Look development. I
-          worked for several clients e.g. Volkswagen, Air France, reebok, al
-          jazeera, mobilcom, rexona, catrice, l.o.v, tchibo, recaro... I love
-          colors, shapes and structures and working on fun projects to try out
-          some new techniques and things i always wanted to do. If you are
-          interested in my work or if you like to collaborate or just say hello,
-          feel free to contact me.
+          I am Hilal, a full stack web developer based in London, UK. My focus
+          is on developing web pages that deliver seamless user experiences. I
+          completed my Bachelor's Degree from 2014 to 2018 and further enhanced
+          my skills through the Microsoft Software Expertise course in 2019.
+          During my time as a Web Developer in Istanbul from 2019 to June 2020,
+          I gained practical experience in the field. I thrive on the
+          opportunity to work on interesting projects where I can explore new
+          techniques and bring my ideas to life. <br />
+          <br />
+          If you are interested in my work or would like to explore
+          collaboration possibilities, please feel free to get in touch.
         </Details>
       </Aboutme>
       <ContactWrapper>
         <ContactTitle>Contact</ContactTitle>
         <InfoWrapper>
-          <Info>Mail:hilalzenginabaci@gmail.com</Info>
-          <Info> Mobile Phone: +44 0707 422 03 82</Info>
+          <Info>Mail: hilalzenginabaci@gmail.com</Info>
+          <Info> Mobile Phone: +44 0747 022 03 82</Info>
         </InfoWrapper>
         <SocialMediaWrapper>
           <Link href="https://www.linkedin.com/in/hilal-abaci/" target="_blank">
