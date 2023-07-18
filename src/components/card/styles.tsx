@@ -32,7 +32,7 @@ export const Title = styled.h1`
   text-transform: uppercase;
   letter-spacing: 7px;
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 15px;
   }
 `;
 export const Techno = styled.h4`
@@ -41,7 +41,7 @@ export const Techno = styled.h4`
   letter-spacing: 3px;
   color: rgba(46, 16, 66, 0.8);
   @media only screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 12px;
   }
 `;
 export const Details = styled.p`
@@ -50,7 +50,7 @@ export const Details = styled.p`
   letter-spacing: 1px;
   padding: 10px;
   @media only screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 12px;
   }
 `;
 export const Link = styled.a`
@@ -63,6 +63,6 @@ export const Link = styled.a`
   color: #edebeb;
   text-shadow: 2px 2px 5px rgba(46, 16, 66, 0.8);
   @media only screen and (max-width: 768px) {
-    font-size: 8px;
+    font-size: 10px;
   }
 `;
