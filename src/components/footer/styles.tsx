@@ -18,6 +18,6 @@ export const Container = styled.footer`
 export const Text = styled.p`
   font-size: 13px;
   @media only screen and (max-width: 768px) {
-    font-size: 8px;
+    font-size: 10px;
   }
 `;
