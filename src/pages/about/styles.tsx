@@ -65,14 +65,14 @@ export const LinkedIn = styled(LinkedInIcon)`
   font-size: 60px !important;
   color: #edebeb;
   @media only screen and (max-width: 768px) {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
 `;
 export const GitHub = styled(GitHubIcon)`
   font-size: 60px !important;
   color: #edebeb;
   @media only screen and (max-width: 768px) {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
 `;
 export const Aboutme = styled.div`
