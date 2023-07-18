@@ -7,7 +7,9 @@ export const Container = styled.div`
   font-family: "Gloria";
   padding: 50px 0 100px 0;
   @media only screen and (max-width: 768px) {
-    padding: 50px 0;
+    height: fit-content;
+    flex-direction: column-reverse;
+    padding: 5px 0 0 0;
   }
 `;
 export const Info = styled.div``;
@@ -21,7 +23,7 @@ export const Title = styled.h1`
   line-height: normal;
   letter-spacing: 9.6px;
   @media only screen and (max-width: 768px) {
-    font-size: 35px;
+    font-size: 45px;
     letter-spacing: 3.6px;
   }
 `;
@@ -35,7 +37,7 @@ export const Content = styled.p`
   line-height: normal;
   letter-spacing: 2.4px;
   @media only screen and (max-width: 768px) {
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 2px;
   }
 `;
@@ -43,7 +45,7 @@ export const IllustImg = styled.img`
   width: 600px;
   margin-left: 100px;
   @media only screen and (max-width: 768px) {
-    width: 120px;
+    width: 280px;
     margin-left: 0;
   }
 `;
