@@ -31,6 +31,7 @@ export const Title = styled.h1`
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 7px;
+  font-weight: bold;
   @media only screen and (max-width: 768px) {
     font-size: 15px;
   }
