@@ -16,7 +16,7 @@ function App() {
         <Start />
         <Work />
         <About />
-    {/*     <Footer/> */}
+        <Footer/>
       </div>
     </NavProvider>
   );
