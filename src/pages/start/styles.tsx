@@ -7,6 +7,7 @@ export const Container = styled.div`
   font-family: "Gloria";
   padding: 50px 0 100px 0;
   @media only screen and (max-width: 768px) {
+    padding: 60px 50px;
   }
 `;
 export const Info = styled.div``;
