@@ -8,7 +8,7 @@ const useOnScreen = <T extends HTMLElement>(ref: React.RefObject<T>) => {
       setIsOnScreen(entry.isIntersecting);
     },
     {
-      threshold: 0.45,
+      threshold: 0.1,
     }
   );
 

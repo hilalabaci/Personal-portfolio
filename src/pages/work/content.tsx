@@ -3,7 +3,7 @@ const works = [
   {
     imgUrl: "/logo/process.png",
     title: "Process",
-    techno: "React JS, Node js, Mongoose, Styled-component,",
+    techno: "React JS, Node js, Mongoose, Styled-component",
     content:
       "This application is an application that I have created to follow the processes of the works we do.. The app provides user registration, login.",
     link: "https://process-beige.vercel.app/",

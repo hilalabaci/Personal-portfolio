@@ -5,6 +5,7 @@ import Start from "./pages/start";
 import About from "./pages/about";
 import Work from "./pages/work";
 import NavProvider from "./contexts/NavContext";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Start />
         <Work />
         <About />
+    {/*     <Footer/> */}
       </div>
     </NavProvider>
   );

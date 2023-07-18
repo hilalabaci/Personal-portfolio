@@ -4,7 +4,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width: 500px;
+  width: 60%;
   height: 470px;
   font-family: "WorkSansBold";
   color: #edebeb;
@@ -15,25 +15,26 @@ export const Container = styled.div`
 `;
 export const WorkImg = styled.img`
   border-radius: 20px;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   border: 2px solid #edebeb;
 `;
 export const Title = styled.h1`
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 7px;
 `;
 export const Techno = styled.h4`
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 3px;
   color: rgba(46, 16, 66, 0.8);
 `;
 export const Details = styled.p`
-  font-size: 15px;
+  font-size: 18px;
   text-align: justify;
   letter-spacing: 1px;
+  padding: 10px;
 `;
 export const Link = styled.a`
   text-transform: uppercase;
