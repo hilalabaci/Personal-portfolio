@@ -7,7 +7,7 @@ export const Container = styled.div`
   font-family: "Gloria";
   padding: 50px 0 100px 0;
   @media only screen and (max-width: 768px) {
-    padding: 60px 50px;
+    padding: 50px 0;
   }
 `;
 export const Info = styled.div``;
@@ -21,7 +21,7 @@ export const Title = styled.h1`
   line-height: normal;
   letter-spacing: 9.6px;
   @media only screen and (max-width: 768px) {
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 3.6px;
   }
 `;
@@ -35,14 +35,15 @@ export const Content = styled.p`
   line-height: normal;
   letter-spacing: 2.4px;
   @media only screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
   }
 `;
 export const IllustImg = styled.img`
   width: 600px;
   margin-left: 100px;
   @media only screen and (max-width: 768px) {
-    width: 150px;
+    width: 120px;
     margin-left: 0;
   }
 `;
