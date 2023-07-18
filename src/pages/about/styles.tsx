@@ -26,7 +26,7 @@ export const ContactWrapper = styled.div`
   align-content: center !important;
   justify-content: center;
   align-items: center;
-  margin-top: 300px;
+  margin-top: 150px;
   @media only screen and (max-width: 768px) {
     margin-top: 0;
     padding: 50px 0;

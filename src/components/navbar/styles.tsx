@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: center;
   /*   border-bottom: 5px solid rgba(46, 16, 66, 0.5); */
   height: 70px;
-  font-family: "Gloria";
+  font-family: "WorkSans";
   @media only screen and (max-width: 768px) {
     height: fit-content;
   }
