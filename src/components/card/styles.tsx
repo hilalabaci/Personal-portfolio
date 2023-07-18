@@ -14,7 +14,7 @@ export const Container = styled.div`
   box-shadow: 0px 30px 60px rgba(46, 16, 66, 0.08);
   @media only screen and (max-width: 768px) {
     height: fit-content;
-    width: 70%;
+    width: 80%;
   }
 `;
 export const WorkImg = styled.img`
