@@ -51,7 +51,7 @@ export const Details = styled.p`
   letter-spacing: 1px;
   padding: 10px;
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 15px;
   }
 `;
 export const Link = styled.a`
