@@ -17,6 +17,7 @@ export const Container = styled.div`
     margin-top: 0;
     height: fit-content;
     padding-top: 100px;
+    background-position: left -5% top 15%;
   }
 `;
 export const ContactWrapper = styled.div`
@@ -92,6 +93,7 @@ export const AboutTitle = styled.div`
   @media only screen and (max-width: 768px) {
     font-size: 15px;
     letter-spacing: 3px;
+    width: 55%;
   }
 `;
 export const Details = styled.p`
