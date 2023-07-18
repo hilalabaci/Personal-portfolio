@@ -9,7 +9,7 @@ export const Container = styled.div`
   height: 70px;
   font-family: "Gloria";
   @media only screen and (max-width: 768px) {
-    height: fit-content
+    height: fit-content;
   }
 `;
 export const ItemsWrapper = styled.div`
@@ -31,8 +31,8 @@ export const NavbarItem = styled.button<NavbarItemProps>`
   border-radius: 100px;
   border: none;
   @media only screen and (max-width: 768px) {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     padding: 0;
     margin: 0;
   }
@@ -58,6 +58,6 @@ export const NavbarItemInfo = styled.div`
   font-weight: bold;
   font-size: 10px;
   @media only screen and (max-width: 768px) {
-    font-size: 8px;
+    font-size: 10px;
   }
 `;
