@@ -38,7 +38,7 @@ export const ContactTitle = styled.div`
   line-height: 2em;
   letter-spacing: 7px;
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 15px;
   }
 `;
 export const InfoWrapper = styled.div``;
