@@ -13,7 +13,7 @@ const works = [
     title: "To Do List App",
     techno: "React JS, Node js, Mongoose",
     content: " It is a simple to do list application saved in database.",
-    link: "https://notes-ten-wine.vercel.app/",
+    link: "https://todo-list-git-main-hilalabaci.vercel.app/",
   },
 
   {
