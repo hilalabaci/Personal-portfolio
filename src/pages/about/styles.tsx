@@ -56,6 +56,7 @@ export const SocialMediaWrapper = styled.div`
   margin-top: 50px;
   @media only screen and (max-width: 768px) {
     margin-top: 10px;
+    gap: 5px;
   }
 `;
 export const Link = styled.a``;
@@ -100,7 +101,10 @@ export const Details = styled.p`
   letter-spacing: 2px;
   width: 50%;
   @media only screen and (max-width: 768px) {
-    font-size: 8px;
+    font-size: 9px;
+    letter-spacing: 1px;
+    line-height: 1em;
+    width: 55%;
   }
 `;
 export const IllustImg = styled.img`
