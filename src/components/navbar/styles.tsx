@@ -33,6 +33,8 @@ export const NavbarItem = styled.button<NavbarItemProps>`
   @media only screen and (max-width: 768px) {
     width: 10px;
     height: 10px;
+    padding: 0;
+    margin: 0;
   }
 `;
 export const TransitionNavbarItem = styled.div`
