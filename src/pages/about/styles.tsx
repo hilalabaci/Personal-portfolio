@@ -17,7 +17,7 @@ export const Container = styled.div`
     margin-top: 0;
     height: fit-content;
     padding-top: 150px;
-    background-position: left -5% top 15%;
+    background-position: left -5% top 20%;
   }
 `;
 export const ContactWrapper = styled.div`
