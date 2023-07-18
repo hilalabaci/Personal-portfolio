@@ -46,7 +46,7 @@ export const Info = styled.div`
   font-size: 15px;
   line-height: 2em;
   @media only screen and (max-width: 768px) {
-    font-size: 5px;
+    font-size: 8px;
   }
 `;
 export const SocialMediaWrapper = styled.div`
@@ -64,14 +64,14 @@ export const LinkedIn = styled(LinkedInIcon)`
   font-size: 60px !important;
   color: #edebeb;
   @media only screen and (max-width: 768px) {
-    font-size: 15px !important;
+    font-size: 20px !important;
   }
 `;
 export const GitHub = styled(GitHubIcon)`
   font-size: 60px !important;
   color: #edebeb;
   @media only screen and (max-width: 768px) {
-    font-size: 15px !important;
+    font-size: 20px !important;
   }
 `;
 export const Aboutme = styled.div`
@@ -90,7 +90,7 @@ export const AboutTitle = styled.div`
   letter-spacing: 7px;
   width: 50%;
   @media only screen and (max-width: 768px) {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 3px;
   }
 `;
@@ -101,9 +101,9 @@ export const Details = styled.p`
   letter-spacing: 2px;
   width: 50%;
   @media only screen and (max-width: 768px) {
-    font-size: 9px;
+    font-size: 11px;
     letter-spacing: 1px;
-    line-height: 1em;
+    line-height: 1.5em;
     width: 55%;
   }
 `;
