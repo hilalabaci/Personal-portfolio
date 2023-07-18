@@ -5,8 +5,12 @@ export const Container = styled.div`
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 50px 50px;
+
   padding: 50px 100px;
   overflow-y: hidden;
   overflow-x: scroll;
+  @media only screen and (max-width: 768px) {
+    padding: 10px 10px;
+    gap: 20px 20px;
+  }
 `;

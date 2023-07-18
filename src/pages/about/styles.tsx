@@ -13,6 +13,11 @@ export const Container = styled.div`
   font-family: "WorkSansBold";
   letter-spacing: 3px;
   padding-top: 150px;
+  @media only screen and (max-width: 768px) {
+    margin-top: 0;
+    height: fit-content;
+    padding-top: 100px;
+  }
 `;
 export const ContactWrapper = styled.div`
   display: flex;
@@ -21,39 +26,61 @@ export const ContactWrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 300px;
+  @media only screen and (max-width: 768px) {
+    margin-top: 0;
+    padding-top: 50px;
+  }
 `;
 export const ContactTitle = styled.div`
   text-transform: uppercase;
   font-size: 55px;
   line-height: 2em;
   letter-spacing: 7px;
+  @media only screen and (max-width: 768px) {
+    font-size: 10px;
+  }
 `;
 export const InfoWrapper = styled.div``;
 export const Info = styled.div`
   text-transform: uppercase;
   font-size: 15px;
   line-height: 2em;
+  @media only screen and (max-width: 768px) {
+    font-size: 5px;
+  }
 `;
 export const SocialMediaWrapper = styled.div`
   display: flex;
   flex-direction: row;
   gap: 20px;
   margin-top: 50px;
+  @media only screen and (max-width: 768px) {
+    margin-top: 10px;
+  }
 `;
 export const Link = styled.a``;
 export const LinkedIn = styled(LinkedInIcon)`
   font-size: 60px !important;
   color: #edebeb;
+  @media only screen and (max-width: 768px) {
+    font-size: 15px !important;
+  }
 `;
 export const GitHub = styled(GitHubIcon)`
   font-size: 60px !important;
   color: #edebeb;
+  @media only screen and (max-width: 768px) {
+    font-size: 15px !important;
+  }
 `;
 export const Aboutme = styled.div`
   display: flex;
   flex-direction: column;
   align-items: end;
   padding-right: 100px;
+  @media only screen and (max-width: 768px) {
+    padding-right: 20px;
+  }
 `;
 export const AboutTitle = styled.div`
   font-size: 30px;
@@ -61,14 +88,20 @@ export const AboutTitle = styled.div`
   line-height: 2em;
   letter-spacing: 7px;
   width: 50%;
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
 `;
 export const Details = styled.p`
-
   font-size: 19px;
   line-height: 2em;
   text-align: justify;
   letter-spacing: 2px;
   width: 50%;
+  @media only screen and (max-width: 768px) {
+    font-size: 8px;
+  }
 `;
 export const IllustImg = styled.img`
   width: 500px;
