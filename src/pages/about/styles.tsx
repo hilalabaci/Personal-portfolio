@@ -28,7 +28,7 @@ export const ContactWrapper = styled.div`
   margin-top: 300px;
   @media only screen and (max-width: 768px) {
     margin-top: 0;
-    padding-top: 50px;
+    padding: 50px 0;
   }
 `;
 export const ContactTitle = styled.div`
