@@ -38,7 +38,7 @@ export const ContactTitle = styled.div`
   line-height: 2em;
   letter-spacing: 7px;
   @media only screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 12px;
   }
 `;
 export const InfoWrapper = styled.div``;
@@ -65,14 +65,14 @@ export const LinkedIn = styled(LinkedInIcon)`
   font-size: 60px !important;
   color: #edebeb;
   @media only screen and (max-width: 768px) {
-    font-size: 20px !important;
+    font-size: 25px !important;
   }
 `;
 export const GitHub = styled(GitHubIcon)`
   font-size: 60px !important;
   color: #edebeb;
   @media only screen and (max-width: 768px) {
-    font-size: 20px !important;
+    font-size: 25px !important;
   }
 `;
 export const Aboutme = styled.div`
@@ -91,9 +91,9 @@ export const AboutTitle = styled.div`
   letter-spacing: 7px;
   width: 50%;
   @media only screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing: 3px;
-    width: 55%;
+    width: 58%;
   }
 `;
 export const Details = styled.p`
@@ -103,10 +103,10 @@ export const Details = styled.p`
   letter-spacing: 2px;
   width: 50%;
   @media only screen and (max-width: 768px) {
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: 1px;
     line-height: 1.5em;
-    width: 55%;
+    width: 58%;
   }
 `;
 export const IllustImg = styled.img`
