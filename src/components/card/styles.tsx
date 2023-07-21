@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: space-evenly;
   width: 60%;
   height: 470px;
-  font-family: "WorkSansBold";
+  font-family: "Montserrat";
   color: #edebeb;
   /* border: 2px solid rgba(8, 8, 8, 0.58); */
   border-radius: 50px;
@@ -46,10 +46,11 @@ export const Techno = styled.h4`
   }
 `;
 export const Details = styled.p`
-  font-size: 18px;
+  font-size: 17px;
   text-align: justify;
   letter-spacing: 1px;
-  padding: 10px;
+  line-height: 2em;
+  padding: 0 30px;
   @media only screen and (max-width: 768px) {
     font-size: 15px;
   }
@@ -63,6 +64,9 @@ export const Link = styled.a`
   text-decoration: none;
   color: #edebeb;
   text-shadow: 2px 2px 5px rgba(46, 16, 66, 0.8);
+  :focus{
+    color: blue;
+  }
   @media only screen and (max-width: 768px) {
     font-size: 10px;
   }

@@ -4,7 +4,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(#ffe9df, #fdbdac);
-  font-family: "Gloria";
+  font-family: "Glory";
   padding: 50px 0 100px 0;
   @media only screen and (max-width: 768px) {
     height: fit-content;
@@ -14,10 +14,10 @@ export const Container = styled.div`
 `;
 export const Info = styled.div``;
 export const Title = styled.h1`
-  font-family: "Gloria";
+  font-family: Gloria;
   color: #2e1042;
   text-align: center;
-  font-size: 96px;
+  font-size: 100px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -31,7 +31,7 @@ export const Content = styled.p`
   color: #2e1042;
   text-align: center;
   font-family: Gloria;
-  font-size: 24px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

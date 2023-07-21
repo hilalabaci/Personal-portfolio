@@ -10,7 +10,7 @@ export const Container = styled.div`
   background-position: left 0% top 14%;
   height: 100vw;
   color: #edebeb;
-  font-family: "WorkSansBold";
+  font-family: "Montserrat";
   letter-spacing: 3px;
   padding-top: 150px;
   @media only screen and (max-width: 768px) {

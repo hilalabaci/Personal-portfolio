@@ -6,6 +6,7 @@ import About from "./pages/about";
 import Work from "./pages/work";
 import NavProvider from "./contexts/NavContext";
 import Footer from "./components/footer";
+import "./App.css"
 
 function App() {
   return (

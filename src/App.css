@@ -10,7 +10,25 @@
     url(/public/fonts/Work_Sans/static/WorkSans-Regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: "WorkSansBold";
+  font-family: "WorkSans";
+  font-weight: bold;
   src: local("Gloria"),
     url(/public/fonts/Work_Sans/static/WorkSans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Glory";
+  src: local("Glory"),
+    url(/public/fonts/Give_You_Glory/GiveYouGlory-Regular.ttf)
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Jost";
+  src: local("Jost"),
+    url(/public/fonts/Jost/static/Jost-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(/public/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format("truetype");
 }
