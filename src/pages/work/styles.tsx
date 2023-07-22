@@ -9,7 +9,6 @@ export const Container = styled.div`
   overflow-x: scroll;
   gap: 80px;
   @media only screen and (max-width: 768px) {
-    padding: 50px 10px;
-    gap: 20px;
+    gap: 50px;
   }
 `;

@@ -7,9 +7,8 @@ export const Container = styled.div`
   font-family: "Glory";
   height: 100vh;
   @media only screen and (max-width: 768px) {
-    height: fit-content;
+    height: 100vh;
     flex-direction: column-reverse;
-    padding: 40px 0 0 0;
   }
 `;
 export const Info = styled.div``;
