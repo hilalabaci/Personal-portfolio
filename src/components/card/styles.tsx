@@ -64,15 +64,18 @@ export const Details = styled.p`
 `;
 export const Link = styled.a`
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2em;
   text-align: justify;
   letter-spacing: 1px;
   text-decoration: none;
   color: #edebeb;
   text-shadow: 2px 2px 5px rgba(46, 16, 66, 0.8);
-  :focus {
-    color: blue;
+  transition: color 0.2s ease, transform 0.2s ease;
+  transform: scale(1, 1);
+  &:hover {
+    color: rgba(46, 16, 66, 0.8);
+    transform: scale(1.2, 1.2);
   }
   @media only screen and (max-width: 768px) {
     font-size: 10px;
