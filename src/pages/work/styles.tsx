@@ -4,7 +4,6 @@ export const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 50px 100px;
   flex-wrap: wrap;
   overflow-y: hidden;
   overflow-x: scroll;

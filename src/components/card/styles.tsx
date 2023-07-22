@@ -1,13 +1,15 @@
 import styled from "styled-components";
-export const Container = styled.div`
+import { ContainerProps } from "./types";
+export const Container = styled.div<ContainerProps>`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  width: 60%;
-  height: 470px;
   font-family: "Montserrat";
   color: #edebeb;
+  width: 80%;
+  transform: ${({ inView }) => (inView ? "scale(1, 1)" : "scale(0.4, 0.4)")};
+  transition: transform 1s ease;
   /* border: 2px solid rgba(8, 8, 8, 0.58); */
   border-radius: 50px;
   padding: 15px;
@@ -22,6 +24,11 @@ export const WorkImg = styled.img`
   width: 200px;
   height: 200px;
   border: 2px solid #edebeb;
+  transform: scale(1, 1);
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
   @media only screen and (max-width: 768px) {
     width: 90px;
     height: 90px;
@@ -64,7 +71,7 @@ export const Link = styled.a`
   text-decoration: none;
   color: #edebeb;
   text-shadow: 2px 2px 5px rgba(46, 16, 66, 0.8);
-  :focus{
+  :focus {
     color: blue;
   }
   @media only screen and (max-width: 768px) {

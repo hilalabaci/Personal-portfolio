@@ -5,7 +5,7 @@ export const Container = styled.div`
   justify-content: center;
   background-image: linear-gradient(#ffe9df, #fdbdac);
   font-family: "Glory";
-  padding: 50px 0 100px 0;
+  height: 100vh;
   @media only screen and (max-width: 768px) {
     height: fit-content;
     flex-direction: column-reverse;
@@ -20,7 +20,7 @@ export const Title = styled.h1`
   font-size: 100px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 30px;
   letter-spacing: 9.6px;
   @media only screen and (max-width: 768px) {
     font-size: 45px;

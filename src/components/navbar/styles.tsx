@@ -2,14 +2,15 @@ import styled from "styled-components";
 import { NavbarItemProps } from "./types";
 export const Container = styled.div`
   position: fixed;
-  top: 0;
+  top: 30px;
+  left: 30px;
   display: flex;
   align-items: center;
-  /*   border-bottom: 5px solid rgba(46, 16, 66, 0.5); */
-  height: 70px;
   font-family: "WorkSans";
   @media only screen and (max-width: 768px) {
     height: fit-content;
+    top: 20px;
+    left: 20px;
   }
 `;
 export const ItemsWrapper = styled.div`
@@ -19,6 +20,7 @@ export const ItemsWrapper = styled.div`
   justify-content: center;
   gap: 10px;
   @media only screen and (max-width: 768px) {
+    gap: 5px;
   }
 `;
 export const NavbarItem = styled.button<NavbarItemProps>`
@@ -42,11 +44,9 @@ export const TransitionNavbarItem = styled.div`
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  gap: 50px;
-  margin: 250px 0px 0 20px;
+  gap: 30px;
   @media only screen and (max-width: 768px) {
     gap: 20px;
-    margin: 20px 0px 0 10px;
   }
 `;
 export const NavbarItemInfo = styled.div`
@@ -54,9 +54,9 @@ export const NavbarItemInfo = styled.div`
   justify-content: start;
   align-items: center;
   text-transform: uppercase;
-  color: rgba(46, 16, 66, 0.3);
+  color: rgba(46, 16, 66, 1);
   font-weight: bold;
-  font-size: 10px;
+  font-size: 16px;
   @media only screen and (max-width: 768px) {
     font-size: 10px;
   }

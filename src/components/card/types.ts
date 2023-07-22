@@ -5,3 +5,5 @@ export type CardItemProps = {
   details: string;
   link: string;
 };
+
+export type ContainerProps = { inView?: boolean };
