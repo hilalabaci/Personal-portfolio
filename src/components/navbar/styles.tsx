@@ -33,8 +33,8 @@ export const NavbarItem = styled.button<NavbarItemProps>`
   border-radius: 100px;
   border: none;
   @media only screen and (max-width: 768px) {
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     padding: 0;
     margin: 0;
   }
@@ -58,6 +58,6 @@ export const NavbarItemInfo = styled.div`
   font-weight: bold;
   font-size: 16px;
   @media only screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 14px;
   }
 `;
