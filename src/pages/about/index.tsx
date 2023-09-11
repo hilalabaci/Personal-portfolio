@@ -41,8 +41,13 @@ function About() {
       <ContactWrapper>
         <ContactTitle>Contact</ContactTitle>
         <InfoWrapper>
-          <Info>Mail: hilalzenginabaci@gmail.com</Info>
-          <Info> Mobile Phone: +44 0747 022 03 82</Info>
+          <Info href="mailto:hilalzenginabaci@gmail.com">
+            Mail: hilalzenginabaci@gmail.com
+          </Info>
+          <br />
+          <Info href="tel:+4407470220382">
+            Mobile Phone: +44 0747 022 03 82
+          </Info>
         </InfoWrapper>
         <SocialMediaWrapper>
           <Link href="https://www.linkedin.com/in/hilal-abaci/" target="_blank">

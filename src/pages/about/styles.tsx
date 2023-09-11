@@ -42,10 +42,12 @@ export const ContactTitle = styled.div`
   }
 `;
 export const InfoWrapper = styled.div``;
-export const Info = styled.div`
+export const Info = styled.a`
   text-transform: uppercase;
   font-size: 15px;
   line-height: 2em;
+  text-decoration: none;
+  color: #edebeb;
   @media only screen and (max-width: 768px) {
     font-size: 8px;
   }
