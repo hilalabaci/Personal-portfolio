@@ -21,7 +21,7 @@ function About() {
     <Container ref={aboutRef} id="about">
       <Aboutme>
         <AboutTitle>
-          Hilal Abacı - Full Stack Web Developer in London, UK
+          Hilal Abacı - Full Stack Web Developer in Didcot, UK
         </AboutTitle>
         <br />
         <Details>
@@ -42,7 +42,7 @@ function About() {
         <ContactTitle>Contact</ContactTitle>
         <InfoWrapper>
           <Info href="mailto:hilalzenginabaci@gmail.com">
-            Mail: hilalzenginabaci@gmail.com
+            Mail: hilalabaci55@gmail.com
           </Info>
           <br />
           <Info href="tel:+4407470220382">
