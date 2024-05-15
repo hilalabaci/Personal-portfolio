@@ -25,14 +25,32 @@ function About() {
         </AboutTitle>
         <br />
         <Details>
-          I am Hilal, a full stack web developer based in London, UK. My focus
-          is on developing web pages that deliver seamless user experiences. I
-          completed my Bachelor's Degree from 2014 to 2018 and further enhanced
-          my skills through the Microsoft Software Expertise course in 2019.
-          During my time as a Web Developer in Istanbul from 2019 to June 2020,
-          I gained practical experience in the field. I thrive on the
-          opportunity to work on interesting projects where I can explore new
-          techniques and bring my ideas to life. <br />
+          Hey there! I'm Hilal Abacı, a seasoned full-stack developer living in
+          Didcot, United Kingdom. I'm all about staying ahead of the tech curve
+          and constantly leveling up my skills. With expertise in cool stuff
+          like React.js, Node.js, TypeScript, and more, I've got over a year of
+          pro experience and I'm on the lookout for gigs at a company that digs
+          cutting-edge tech and personal growth. In my career journey, I've
+          dabbled in various projects, honing my skills across a bunch of tech
+          domains. Right now, I'm rocking it as a web developer at MOBIDELI,
+          jazzing up the online food ordering system and making sure our
+          projects fly smoothly on AWS EC2. Plus, I've whipped up some slick
+          email templates for account verifications and order confirmations
+          using HTML and CSS, and crafted a sweet back-office dashboard using
+          React.js and Redux. My educational background? I've got a mix of
+          Health Management and Information Systems Management. Plus, I've
+          soaked up knowledge from cool places like the London App Brewery and
+          Brussels Capital University, and even got some Microsoft software
+          expertise under my belt. Along the way, I've become a whiz with tech
+          like Node.js, MongoDB, PostgreSQL, Web3 DApps, and jQuery, and I've
+          even built my own e-commerce project. Oh, and let's not forget my pet
+          project 'Process'! Inspired by Jira and Trello, I cooked up a frontend
+          app using React.js and Styled-Components, and whipped up a nifty REST
+          API using Node.js and MongoDB. I'm all about bringing fresh ideas to
+          the table and making projects pop. Wanna know more or check out my
+          work? Swing by my personal website or slide into my DMs on LinkedIn.
+          Let's connect!
+          <br />
           <br />
           If you are interested in my work or would like to explore
           collaboration possibilities, please feel free to get in touch.
