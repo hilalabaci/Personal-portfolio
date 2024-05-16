@@ -59,7 +59,7 @@ function About() {
       <ContactWrapper>
         <ContactTitle>Contact</ContactTitle>
         <InfoWrapper>
-          <Info href="mailto:hilalzenginabaci@gmail.com">
+          <Info href="mailto:hilalabaci55@gmail.com">
             Mail: hilalabaci55@gmail.com
           </Info>
           <br />

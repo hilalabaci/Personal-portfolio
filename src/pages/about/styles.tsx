@@ -19,6 +19,12 @@ export const Container = styled.div`
     padding-top: 150px;
     background-position: left -5% top 20%;
   }
+  @media only screen and (max-width: 992px) {
+    margin-top: 0;
+    height: fit-content;
+    padding-top: 150px;
+    background-position: left -5% top 20%;
+  }
 `;
 export const ContactWrapper = styled.div`
   display: flex;
@@ -31,6 +37,10 @@ export const ContactWrapper = styled.div`
     margin-top: 0;
     padding: 50px 0;
   }
+  @media only screen and (max-width: 992px) {
+    margin-top: 0;
+    padding: 50px 0;
+  }
 `;
 export const ContactTitle = styled.div`
   text-transform: uppercase;
@@ -38,6 +48,9 @@ export const ContactTitle = styled.div`
   line-height: 2em;
   letter-spacing: 7px;
   @media only screen and (max-width: 768px) {
+    font-size: 15px;
+  }
+  @media only screen and (max-width: 992px) {
     font-size: 15px;
   }
 `;
@@ -51,6 +64,9 @@ export const Info = styled.a`
   @media only screen and (max-width: 768px) {
     font-size: 8px;
   }
+  @media only screen and (max-width: 992px) {
+    font-size: 8px;
+  }
 `;
 export const SocialMediaWrapper = styled.div`
   display: flex;
@@ -58,6 +74,10 @@ export const SocialMediaWrapper = styled.div`
   gap: 20px;
   margin-top: 50px;
   @media only screen and (max-width: 768px) {
+    margin-top: 10px;
+    gap: 5px;
+  }
+  @media only screen and (max-width: 992px) {
     margin-top: 10px;
     gap: 5px;
   }
@@ -69,11 +89,17 @@ export const LinkedIn = styled(LinkedInIcon)`
   @media only screen and (max-width: 768px) {
     font-size: 30px !important;
   }
+  @media only screen and (max-width: 992px) {
+    font-size: 30px !important;
+  }
 `;
 export const GitHub = styled(GitHubIcon)`
   font-size: 60px !important;
   color: #edebeb;
   @media only screen and (max-width: 768px) {
+    font-size: 30px !important;
+  }
+  @media only screen and (max-width: 992px) {
     font-size: 30px !important;
   }
 `;
@@ -83,6 +109,9 @@ export const Aboutme = styled.div`
   align-items: end;
   padding-right: 100px;
   @media only screen and (max-width: 768px) {
+    padding-right: 20px;
+  }
+  @media only screen and (max-width: 992px) {
     padding-right: 20px;
   }
 `;
@@ -97,13 +126,23 @@ export const AboutTitle = styled.div`
     letter-spacing: 3px;
     width: 58%;
   }
+  @media only screen and (max-width: 992px) {
+    font-size: 16px;
+    letter-spacing: 3px;
+    width: 58%;
+  }
 `;
 export const Details = styled.p`
-  font-size: 19px;
+  font-size: 15px;
   line-height: 2em;
   text-align: justify;
   letter-spacing: 2px;
   width: 50%;
+  @media only screen and (max-width: 992) {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+    width: 58%;}
   @media only screen and (max-width: 768px) {
     font-size: 12px;
     letter-spacing: 1px;
