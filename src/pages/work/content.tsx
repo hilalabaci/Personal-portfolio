@@ -1,11 +1,11 @@
 const works = [
   {
     imgUrl: "/logo/process.png",
-    title: "Process",
+    title: "Maverva",
     techno: "React JS, Node.js, Mongoose, Express.js, Styled-component",
     content:
-      "This application is an application that I have created to follow the processes of the works we do.. The app provides user registration, login.",
-    link: "https://process.hilalabaci.com/",
+      "This application is an application that I have created to follow the processes of the works I do.. The app provides user registration, login.",
+    link: "https://maverva.hilalabaci.com/",
   },
   {
     imgUrl: "/logo/todolist.png",
