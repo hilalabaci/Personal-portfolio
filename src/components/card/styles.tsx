@@ -20,8 +20,8 @@ export const Container = styled.div<ContainerProps>`
   }
 `;
 export const WorkImg = styled.img`
-  border-radius: 20px;
-  width: 200px;
+  border-radius: 10px;
+  width: min-content;
   height: 200px;
   border: 2px solid #edebeb;
   transform: scale(1, 1);
