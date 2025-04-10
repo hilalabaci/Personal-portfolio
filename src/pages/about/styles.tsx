@@ -55,12 +55,17 @@ export const ContactTitle = styled.div`
   }
 `;
 export const InfoWrapper = styled.div``;
+export const InfoTitle = styled.div`
+  cursor: default;
+`;
 export const Info = styled.a`
-  text-transform: uppercase;
   font-size: 15px;
   line-height: 2em;
   text-decoration: none;
   color: #edebeb;
+  &:hover {
+    text-decoration: underline;
+  }
   @media only screen and (max-width: 768px) {
     font-size: 8px;
   }
@@ -72,7 +77,7 @@ export const SocialMediaWrapper = styled.div`
   display: flex;
   flex-direction: row;
   gap: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
   @media only screen and (max-width: 768px) {
     margin-top: 10px;
     gap: 5px;
@@ -142,7 +147,8 @@ export const Details = styled.p`
     font-size: 12px;
     letter-spacing: 1px;
     line-height: 1.5em;
-    width: 58%;}
+    width: 58%;
+  }
   @media only screen and (max-width: 768px) {
     font-size: 12px;
     letter-spacing: 1px;
