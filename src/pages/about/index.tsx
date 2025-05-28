@@ -26,17 +26,19 @@ function About() {
         </AboutTitle>
         <br />
         <Details>
-          Hello, I’m Hilal, an experienced full-stack developer specializing in
-          building scalable and efficient web applications. I work extensively
-          with modern technologies such as React, Node.js, TypeScript, and
-          PostgreSQL. My expertise includes developing RESTful APIs, integrating
-          third-party services, and managing complex data models using Prisma
-          and relational databases. I focus on creating maintainable and
-          high-performance back-end systems while delivering user-friendly
-          front-end interfaces with React and Styled-components. Additionally,
-          I’m proficient in unit testing, CI/CD processes, and Agile
-          methodologies to ensure quality and efficiency in every project. I’m
-          always eager to learn new technologies and continuously improve my
+          Hello, I’m Hilal, a Full Stack Web Developer based in Didcot, UK. I
+          have a passion for creating innovative and user-friendly web
+          applications. With a strong foundation in both front-end and back-end
+          development, I enjoy building scalable and efficient web applications.
+          I work extensively with modern technologies such as React, Node.js,
+          TypeScript, and PostgreSQL. My expertise includes developing RESTful
+          APIs, integrating third-party services, and managing complex data
+          models using Prisma and relational databases. I focus on creating
+          maintainable and high-performance back-end systems while delivering
+          user-friendly front-end interfaces with React and Styled-components.
+          Additionally, I’m proficient in unit testing, CI/CD processes, and
+          Agile methodologies to ensure quality and efficiency in every project.
+          I’m always eager to learn new technologies and continuously improve my
           skills in the ever-evolving tech landscape.
           <br />
           <br />
@@ -61,9 +63,9 @@ function About() {
           </InfoTitle>
         </InfoWrapper>
         <SocialMediaWrapper>
-          <Link href="https://www.linkedin.com/in/hilal-abaci/" target="_blank">
+          {/* <Link href="https://www.linkedin.com/in/hilal-abaci/" target="_blank">
             <LinkedIn />
-          </Link>
+          </Link> */}
 
           <Link href="https://github.com/hilalabaci" target="_blank">
             <GitHub />
