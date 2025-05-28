@@ -30,7 +30,7 @@ const works = [
     techno: "JavaScript",
     content:
       " It is a calculator inspired by App design and created using Javascript.",
-    link: "https://github.com/hilalabaci/Calculator",
+    link: "https://calculator.hilalabaci.com/",
   },
   {
     imgUrl: "/logo/simon-game.png",
