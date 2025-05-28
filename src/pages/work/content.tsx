@@ -22,7 +22,7 @@ const works = [
     techno: "React JS",
     content:
       " It is a note-taking application that I created with React js and saved in Local Storage.It is based on the date you created and changes the date when you make any changes. You can delete or edit the note when you complete the note with the tick mark.",
-    link: "https://lnkd.in/eRrAF3EJ",
+    link: "https://github.com/hilalabaci/ToDoList",
   },
   {
     imgUrl: "/logo/calculator.png",
@@ -30,7 +30,7 @@ const works = [
     techno: "JavaScript",
     content:
       " It is a calculator inspired by App design and created using Javascript.",
-    link: "https://www.linkedin.com/posts/activity-7024066513343000576-L95p?utm_source=share&utm_medium=member_desktop",
+    link: "https://github.com/hilalabaci/Calculator",
   },
   {
     imgUrl: "/logo/simon-game.png",
@@ -38,7 +38,7 @@ const works = [
     techno: "JavaScript",
     content:
       "The 'Simon Game' app is a game built using JavaScript. It is a memory challenging game that starts with clicking on a randomly selected box and progresses by remembering each randomly selected box.",
-    link: "https://www.linkedin.com/posts/activity-7019382363847634944-WTB2?utm_source=share&utm_medium=member_desktop",
+    link: "https://github.com/hilalabaci/Simon-Game-Challenge",
   },
 ];
 export default works;
