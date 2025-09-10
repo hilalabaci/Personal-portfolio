@@ -6,7 +6,7 @@ const works = [
       "TypeScript, React JS, Styled-component, Node js, PostgreSQL, Prisma, Express.js, Vercel",
     content:
       " Maverva: A modern web application designed to optimize user management and data sharing processes, offering a robust backend and a user-friendly frontend. Users can securely log in via email, gaining access to the platform. The application manages various workflows with dynamic and customizable functionality to enhance the user experience. On the backend, Node.js and Express.js are used to provide high-performance APIs, while PostgreSQL handles database management. The application ensures data security with JWT-based authentication and authorization. Docker ensures the portability of the application, and efficient deployment is achieved through Vercel.On the frontend, dynamic components are built with React.js, managing user interactions in real time. The application is built with a flexible and maintainable codebase, allowing for easy scalability and seamless integration into various business processes.",
-    link: "https://maverva.hilalabaci.com/",
+    link: "https://maverva.com/",
   },
   {
     imgUrl: "/logo/todolist.png",
