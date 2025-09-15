@@ -63,9 +63,9 @@ function About() {
           </InfoTitle>
         </InfoWrapper>
         <SocialMediaWrapper>
-          {/* <Link href="https://www.linkedin.com/in/hilal-abaci/" target="_blank">
+          <Link href="https://www.linkedin.com/in/hilal-abaci/" target="_blank">
             <LinkedIn />
-          </Link> */}
+          </Link>
 
           <Link href="https://github.com/hilalabaci" target="_blank">
             <GitHub />
